@@ -1,0 +1,94 @@
+# Unity ile ilgili
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Uu]ser[Ss]ettings/
+/[Pp]layerConnectionConfig/
+/[Ll]ogs/
+
+# Asset Server
+/[Aa]ssets/AssetStoreTools*
+
+# Asset klasörü içindeki geçici dosyalar
+Assets/StreamingAssets/*.assetbundle
+Assets/StreamingAssets/*.unity3d
+
+# Cache klasörleri
+/[Cc]ache/
+/[Cc]achedAssetDatabase/
+
+# Derlenmiş dosyalar
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+
+# Derlenmiş derleyici dosyaları
+*[Rr]elease/
+*[Dd]ebug/
+*[Dd]ebugger/
+*.stackdump
+
+# Oluşturulan dosyalar (apk, exe vs)
+*.apk
+*.unitypackage
+*.unitypackage.meta
+*.app
+*.exe
+*.dll
+*.o
+*.so
+*.zip
+
+# macOS özel dosyalar
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows özel dosyalar
+Thumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE - Visual Studio
+.vs/
+*.sln.cache
+*.vcproj.*
+*.vslangbar
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+
+# Rider
+.idea/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# DotNet
+bin/
+obj/
+
+# Log dosyaları
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
