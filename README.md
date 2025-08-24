@@ -1,7 +1,7 @@
-# Flappy Bird - Unity ile Yapılan Oyun
+# Flappy Bird - A Game Made with Unity
 
-Bu oyun, Unity kullanılarak geliştirilmiş basit bir Flappy Bird klonudur.
+This game is a simple Flappy Bird clone developed using Unity.
 
-## 🎮 Nasıl Oynanır?
-- Boşluk tuşu veya fare tıklaması ile kuş yukarı çıkar.
-- Engellerden kaçın, yüksek puan al!
+## 🎮 How to Play?
+- With the spacebar or mouse click, the bird goes up.
+- Avoid obstacles and get high scores!
