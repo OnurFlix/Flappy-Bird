@@ -30,8 +30,10 @@ public class GameManager : MonoBehaviour
     }
 
 
-    public void ResetGame()
+    public void RestartGame()
     {
-        SceneManager.LoadScene(0);
-    }
+        Time.timeScale = 1; // Bu satırı ekleyin veya güncelleyin
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Debug.Log("RestartGame çağrıldı");
+     }
 }

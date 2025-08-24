@@ -7,8 +7,9 @@ public class Bird : MonoBehaviour
     private Rigidbody2D rb2D;
     public bool isGameOver;
     public GameManager gameManager;
-    public GameObject DeathScreen; 
+    public GameObject DeathScreen;
 
+    
 
 
 
@@ -39,7 +40,7 @@ public class Bird : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
-    {
+   {
         if (collision.gameObject.tag == "DeathArea")
         {
             isGameOver = true;
