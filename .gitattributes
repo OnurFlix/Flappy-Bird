@@ -1,8 +1,9 @@
-# Tüm C# dosyalarını zorla C# olarak göster
+# C# dosyaları
 *.cs linguist-language=C#
 *.csproj linguist-language=C#
 *.sln linguist-language=C#
 
-# XML dosyalarını dikkate alma
-*.xml linguist-vendored
+# Ignore klasörler
+Library/** linguist-vendored
+Temp/** linguist-vendored
 
