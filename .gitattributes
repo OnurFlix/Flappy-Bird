@@ -1,0 +1,6 @@
+# Tüm C# dosyalarını C# olarak işaretle
+*.cs linguist-language=C#
+
+# Proje dosyalarını da C# olarak işaretle
+*.csproj linguist-language=C#
+*.sln linguist-language=C#
