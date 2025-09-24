@@ -1,9 +1,1 @@
-# C# dosyaları
-*.cs linguist-language=C#
-*.csproj linguist-language=C#
-*.sln linguist-language=C#
-
-# Ignore klasörler
-Library/** linguist-vendored
-Temp/** linguist-vendored
-
+*.m linguist-language=C#
