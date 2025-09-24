@@ -7,6 +7,7 @@
 
 # Mathematica algılama hatasını engelle
 *.m linguist-detectable=false
+*.wlt linguist-detectable=false
 
 # C# dosyalarını açıkça belirt
 *.cs linguist-language=C#
