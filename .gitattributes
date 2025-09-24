@@ -1,1 +1,12 @@
+# Unity için gereksiz dosyaları dil tespitinden çıkar
+*.meta linguist-detectable=false
+*.asset linguist-detectable=false
+*.unity linguist-detectable=false
+*.prefab linguist-detectable=false
+*.asmdef linguist-detectable=false
+
+# Mathematica algılama hatasını engelle
 *.m linguist-detectable=false
+
+# C# dosyalarını açıkça belirt
+*.cs linguist-language=C#
